@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Final-Project</string>
+    <string name="freezer_choose">Please choose a temperature</string>
+    <string name="fridge_choose">Please choose a temperature</string>
+    <string name="enter_add">Enter device setting value</string>
+    <string name="add_button">Add</string>
+    <string name="enter_name">Enter device name</string>
+    <string name="fridge_save">Save setting</string>
+    <string name="light_sh">Light ON/OFF</string>
+    <string name="dim_light">Enter dimmable value</string>
+    <string name="dim">Dim Light</string>
+    <string name="cook_time">cooking time (seconds)</string>
+    <string name="b_reset">Reset</string>
+    <string name="b_start">Start</string>
+    <string name="b_stop">Stop</string>
+    <string name="b_set">Set time</string>
+    <string name="b_change_m">Save change</string>
+    <string name="b_ad">Add Device</string>
+    <string name="t_on">Light ON</string>
+    <string name="t_off">Light OFF</string>
+    <string name="dim_save">Save change</string>
+</resources>

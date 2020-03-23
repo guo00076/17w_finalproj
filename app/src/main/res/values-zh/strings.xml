@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_add">请输入设备设定值</string>
+    <string name="add_button">加入列表</string>
+    <string name="enter_name">请输入设备名称</string>
+    <string name="fridge_choose">请选择温度</string>
+    <string name="freezer_choose">请选择温度</string>
+    <string name="fridge_save">保存设定</string>
+    <string name="light_sh">主灯开关</string>
+    <string name="dim_light">请出入调节亮度</string>
+    <string name="dim">调节亮度</string>
+    <string name="cook_time">烹饪时间（秒）</string>
+    <string name="b_reset">重新设定</string>
+    <string name="b_start">开始烹饪</string>
+    <string name="b_stop">停止</string>
+    <string name="b_set">设定时间</string>
+    <string name="b_change_m">更改保存</string>
+    <string name="b_ad">添加设备</string>
+    <string name="t_on">灯亮</string>
+    <string name="t_off">灯灭</string>
+    <string name="dim_save">保存更改</string>
+
+</resources>

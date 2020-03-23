@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_microwave"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.teamwork.final_project.kitchenMicrowave">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/micro_timer"
+        android:layout_below="@+id/time_entry"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_start"
+        android:id="@+id/time_start"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/time_reset"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_stop"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#dd4b39"
+        android:id="@+id/stop"
+        android:layout_below="@+id/time_start"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_set"
+        android:id="@+id/time_set"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/stop"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_change_m"
+        android:backgroundTint="#3b5998"
+        android:textColor="#FFFFFF"
+        android:id="@+id/time_change"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cook_time"
+        android:inputType="time"
+        android:id="@+id/time_entry"
+        android:layout_below="@+id/image_m"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_reset"
+        android:id="@+id/time_reset"
+        android:layout_below="@+id/micro_timer"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kitchen_microwave"
+        android:id="@+id/image_m"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/m_name"
+        android:layout_gravity="end"
+        android:hint="name"
+        android:textSize="17dp"
+        android:layout_marginBottom="14dp"
+        android:layout_alignBottom="@+id/image_m"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fridge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.teamwork.final_project.kitchenFridge">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kitchen_fridge"
+        android:id="@+id/image_f"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fridge_change"
+        android:prompt="@string/fridge_choose"
+        android:layout_below="@+id/fridge"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Freezer"
+        android:id="@+id/freezer"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/fridge_change"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fridge_save"
+        android:backgroundTint="#3b5998"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/freezer_change"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/save"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/freezer_change"
+        android:prompt="@string/freezer_choose"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/freezer"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fridge"
+        android:id="@+id/fridge"
+        android:layout_below="@+id/image_f"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/f_name"
+        android:layout_gravity="end"
+        android:hint="name"
+        android:textSize="17dp"
+        android:layout_alignBottom="@+id/image_f"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp" />
+
+
+</RelativeLayout>
